@@ -43,6 +43,10 @@ html {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 .store-item-img:hover {
   opacity: 0.6;
 }
@@ -90,4 +94,22 @@ html {
   width: 33.33%;
   font-size: 50px;
   text-align: center;
+}
+
+.item-details-container {
+  display: flex;
+  flex-direction: row;
+  border: solid white 1px;
+  height: 80vh;
+  width: 90vw;
+  margin: 50px auto;
+}
+
+.detail-item-img {
+  height: 50%;
+}
+
+.detailed-desc {
+  font-size: 30px;
+  height: 50%;
 }
