@@ -22,7 +22,11 @@ const Main = () => {
             onMouseOut={mouseOut}
             className="store-item-img"
           >
-            {hover && <Link to="/details"><p className="view-details">View Details</p></Link>}
+            {hover && (
+              <Link to="/details">
+                <p className="view-details">View Details</p>
+              </Link>
+            )}
             <Link to="/details">
               <img
                 className="item-img"
@@ -59,11 +63,22 @@ const Main = () => {
           </div>
         </div>
         <div className="store-item">
-          <div className="store-item-img">
-            <img
-              className="item-img"
-              src="https://th.bing.com/th/id/R.895b97fecf1438033cef63e473a5c3d0?rik=fUdMfoaLEjVaAQ&pid=ImgRaw&r=0"
-            ></img>
+          <div
+            onMouseOver={mouseOver}
+            onMouseOut={mouseOut}
+            className="store-item-img"
+          >
+            {hover && (
+              <Link to="/details">
+                <p className="view-details">View Details</p>
+              </Link>
+            )}
+            <Link to="/details">
+              <img
+                className="item-img"
+                src="https://th.bing.com/th/id/R.895b97fecf1438033cef63e473a5c3d0?rik=fUdMfoaLEjVaAQ&pid=ImgRaw&r=0"
+              ></img>
+            </Link>
           </div>
           <div className="details-container">
             <div className="item-desc">

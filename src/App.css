@@ -45,6 +45,7 @@ html {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .store-item-img:hover {
@@ -100,16 +101,79 @@ a {
   display: flex;
   flex-direction: row;
   border: solid white 1px;
-  height: 80vh;
+  height: 90vh;
   width: 90vw;
   margin: 50px auto;
 }
 
-.detail-item-img {
+.detailed-desc {
+  font-size: 30px;
+  border: solid white 1px;
+}
+
+.item-details-container {
+  display: flex;
+  flex-direction: column;
+  border: solid white 1px;
+}
+
+.subcontain1 {
+  display: flex;
+  flex-direction: row;
   height: 50%;
 }
 
-.detailed-desc {
-  font-size: 30px;
+.subcontain2 {
+  display: flex;
+  flex-direction: row;
   height: 50%;
+}
+
+.price-detail {
+  width: 20%;
+  height: 50%;
+  font-size: 50px;
+  text-align: center;
+  border: solid white 1px;
+}
+
+.rating-detail {
+  width: 20%;
+  height: 50%;
+  font-size: 50px;
+  text-align: center;
+  border: solid white 1px;
+}
+
+.stock-detail {
+  width: 20%;
+  height: 50%;
+  font-size: 50px;
+  text-align: center;
+  border: solid white 1px;
+}
+
+.purchase {
+  width: 40%;
+  margin: 0 auto;
+  border: solid white 1px;
+  text-align: center;
+}
+
+.stock-qty {
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.buy-now {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.buy-now:hover {
+  background-color: aquamarine;
 }
