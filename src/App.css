@@ -5,12 +5,14 @@
 html {
   background-color: rgb(102, 179, 102);
 }
+
 .store-title {
   text-align: center;
   text-transform: uppercase;
   border-bottom: solid white 1px;
   padding-bottom: 20px;
   letter-spacing: 2px;
+  font-family: "Abril Fatface";
 }
 
 .item-listings {
@@ -32,24 +34,19 @@ html {
   border: solid white 1px;
 }
 
+
 .view-details {
-  z-index: 10;
-  height: 0;
-  margin: auto auto;
-  text-align: center;
-  font-size: 50px;
-  transform: translateY(200px);
-  opacity: 1;
-  cursor: pointer;
+  text-decoration: underline;
+}
+
+.view-details:hover {
+  color: white;
+  transition: all, 0.3s;
 }
 
 a {
   text-decoration: none;
   color: black;
-}
-
-.store-item-img:hover {
-  opacity: 0.6;
 }
 
 .item-img {
@@ -66,8 +63,9 @@ a {
 
 .item-desc {
   height: 50%;
-  border: solid white 1px;
   font-size: 20px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .more-details {
@@ -77,24 +75,26 @@ a {
 }
 
 .price {
-  border: solid white 1px;
   width: 33.33%;
   font-size: 50px;
   text-align: center;
+  margin: auto auto;
 }
 
 .rating {
-  border: solid white 1px;
+  /* border: solid white 1px; */
   width: 33.33%;
   font-size: 50px;
   text-align: center;
+  margin: auto auto;
 }
 
 .stock {
-  border: solid white 1px;
+  /* border: solid white 1px; */
   width: 33.33%;
   font-size: 50px;
   text-align: center;
+  margin: auto auto;
 }
 
 .item-details-container {
@@ -176,4 +176,9 @@ a {
 
 .buy-now:hover {
   background-color: aquamarine;
+}
+
+.fa-star {
+  height: 20px;
+  width: 60px;
 }

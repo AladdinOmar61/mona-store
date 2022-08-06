@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function itemDetail() {
   return (
@@ -24,7 +25,7 @@ function itemDetail() {
       </div>
       <div className="subcontain2">
               <div className="price-detail">
-                Price <br />
+              <FontAwesomeIcon icon="fa-solid fa-circle-dollar" /> <br />
                 $35.99
               </div>
               <div className="rating-detail">
